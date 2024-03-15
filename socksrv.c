@@ -174,7 +174,7 @@ serve_elfldr(uint16_t port) {
  *
  **/
 int main() {
-  const int port = 9021;
+  const int port = 9040;
   pid_t pid;
 
   klog_printf("Socket server was compiled at %s %s\n", __DATE__, __TIME__);
